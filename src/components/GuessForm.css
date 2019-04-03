@@ -1,0 +1,36 @@
+.guess-form {
+  background-color: #394264;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.guess-form-container {
+  background-color: #394264;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#guess-input {
+  width: 300px;
+  height: 50px;
+  margin: 0.8em;
+  border: solid 1px #1f253d;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#guess-btn {
+  background: #1F253D;
+  color: #95a5a6;
+  font-size: 2em;
+  padding: 0.2em;
+  border: solid 1px #1f253d;
+  transition: background 1s ease-in-out;
+  width: 300px;
+  height: 50px;
+}

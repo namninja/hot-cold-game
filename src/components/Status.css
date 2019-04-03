@@ -1,0 +1,9 @@
+.status {
+  background-color: #cc324b;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+}
