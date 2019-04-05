@@ -5,7 +5,7 @@ class GuessForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      userGuess: null
+      userGuess: ""
     };
   }
 

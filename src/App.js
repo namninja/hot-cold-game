@@ -4,6 +4,7 @@ import Status from "./components/Status";
 import GuessForm from "./components/GuessForm";
 import Guesses from "./components/Guesses";
 import Modal from "./components/Modal";
+import Header from "./components/Header";
 
 class App extends Component {
   constructor(props) {
@@ -56,18 +57,10 @@ class App extends Component {
     return (
       <div className="App">
         <Modal show={this.state.show} handleClose={this.hideModal} />
-        <header className="App-header">
-          <nav className="head">
-            <a onClick={this.showModal} className="new" href="#">
-              WHAT?
-            </a>
-          </nav>
-          <nav className="head">
-            <a onClick={this.restartGame} className="new" href="#">
-              +NEW GAME
-            </a>
-          </nav>
-        </header>
+        <Header
+          restart={e => this.restartGame()}
+          showModal={e => this.showModal()}
+        />
         <section className="game">
           <h1 className="title">HOT or COLD</h1>
           <section className="game-board">
