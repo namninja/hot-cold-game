@@ -1,0 +1,42 @@
+.modal-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  z-index: 1010;
+  color: #fff;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-overlay {
+  background: #e74c3c;
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+}
+
+.close {
+  font-size: 0.8em;
+  background: #1F253D;
+  color: #95a5a6;
+  padding: 0.5em 2em;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  border: 1px solid #1F253D;
+}
+
+.instructions {
+  text-align: left;
+}

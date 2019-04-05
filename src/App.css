@@ -1,5 +1,12 @@
 body {
   background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  flex: 1 0 90%;
 }
 
 .App {
@@ -7,7 +14,8 @@ body {
   margin: 15px;
   border-radius: 10px;
   background-color: #1F253D;
-  height: 100vh;
+  flex: 1 0 90%;
+  padding: 5%;
 }
 
 .game {
@@ -37,4 +45,10 @@ body {
 .title {
   font-size: 50px;
   color: white;
+}
+
+.game-board {
+  max-width: 500px;
+  min-width: 500px;
+  border-radius: 15px;
 }

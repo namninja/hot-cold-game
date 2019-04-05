@@ -4,7 +4,7 @@ import "./Status.css";
 function Status(props) {
   return (
     <div className="status">
-      <h2>Make your Guess!</h2>
+      <h2>{props.status}</h2>
     </div>
   );
 }
